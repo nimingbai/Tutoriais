@@ -1,0 +1,88 @@
+﻿a {
+	color: #222222;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+article {
+	border-radius: 14px 0px 0px 0px;
+	border: 1px solid #aaaaaa;
+	margin-bottom: 20px;
+	padding: 0px 20px 20px 20px;
+}
+
+b {
+	color: #444444;
+}
+
+body {
+	margin: 0px;
+	font-family: "Segoe Ui";
+}
+
+footer {
+	background-image: url('../imagens/background.png');
+	background-size: 292px;
+	background-position-y: -52px;
+	text-align: right;
+}
+
+footer button {
+	width: 70px;
+	margin: 9px 3px 8px;
+}
+
+h1 {
+	background-color: #d2d2d2;
+	background-image: url('../imagens/background.png');
+	background-size: 292px;
+	margin-top: 0px;
+}
+
+h1 a {
+	color: #444444;
+	display: block;
+	padding: 28px 30px 30px 32px;
+	font-family: Courier;
+	font-size: 42px;
+	letter-spacing: 4px;
+}
+
+h1 a span {
+	background-color: #d2d2d2;
+}
+
+h2 {
+	background-color: #d2d2d2;
+	padding: 12px 10px 10px 14px;
+	color: #444444;
+	border-radius: 14px 0px 0px 0px;
+	border-bottom: 12px double #ffffff;
+	margin: 0px -20px 20px -20px;
+}
+
+h3 {
+	background-color: #d2d2d2;
+	padding: 4px 7px 8px 14px;
+	border-bottom: 12px double #ffffff;
+}
+
+main {
+	margin: 0px 20px 20px;
+	min-height: calc(100vh - 185px);
+}
+
+pre {
+	border: 1px solid #888888;
+	padding: 12px;
+	overflow: scroll;
+	max-height: 80vh;
+}
+
+.imagem {
+	width: 100%;
+	max-width: 500px;
+	cursor: pointer;
+	filter: grayscale(50%);
+}

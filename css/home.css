@@ -1,0 +1,103 @@
+main {
+	max-width: 1020px;
+	margin: auto;
+	padding: 20px;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	flex: 1 0 100%;
+}
+
+.slide-arrow {
+	position: absolute;
+	display: flex;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	height: 4rem;
+	background-color: #d2d2d2;
+	color: #444444;
+	border: 1px solid #aaaaaa;
+	width: 2rem;
+	font-size: 3rem;
+	padding: 0px;
+	cursor: pointer;
+}
+
+#slide-arrow-prev {
+	left: 0px;
+	padding-left: 0.25rem;
+	border-radius: 0px 2rem 2rem 0px;
+}
+
+#slide-arrow-next {
+	right: 0px;
+	padding-left: 0.75rem;
+	border-radius: 2rem 0px 0px 2rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.slides-container {
+	width: 100%;
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: scroll;
+}
+
+.slides-container::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+
+.tutorial {
+	color: #444444;
+	border: 1px solid #aaaaaa;
+	display: inline-block;
+	padding: 8px;
+	font-size: 13px;
+	border-radius: 8px;
+	margin: 8px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.tutorial button{
+	cursor: pointer;
+	padding: 8px 110px;
+	margin-top: 6px;
+	border: 1px solid #aaaaaa;
+	color: #444444;
+	background-color: #d2d2d2;
+}
+
+.tutorial div {
+	background-color: #d2d2d2;
+	padding: 12px 0px 8px 0px;
+	text-align: center;
+	font-family: Courier;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 4px 4px 0px 0px;
+	border-bottom: 12px double #ffffff;
+}
+
+.tutorial small {
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#menu {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
